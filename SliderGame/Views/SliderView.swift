@@ -22,7 +22,7 @@ class SliderView: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    //this is an IBOutlet
     @IBOutlet weak var SubmitButton: UIButton!
     
     @IBAction func DoSubmit(sender: AnyObject) {
