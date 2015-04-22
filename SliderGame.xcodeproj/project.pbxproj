@@ -13,6 +13,8 @@
 		637658BF1AE7204300F274D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637658BE1AE7204300F274D0 /* Images.xcassets */; };
 		637658C21AE7204300F274D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637658C01AE7204300F274D0 /* LaunchScreen.xib */; };
 		637658CE1AE7204400F274D0 /* SliderGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637658CD1AE7204400F274D0 /* SliderGameTests.swift */; };
+		637658D91AE720FD00F274D0 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637658D81AE720FD00F274D0 /* AppModel.swift */; };
+		637658DC1AE721C300F274D0 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637658DB1AE721C300F274D0 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		637658C71AE7204400F274D0 /* SliderGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637658CC1AE7204400F274D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637658CD1AE7204400F274D0 /* SliderGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameTests.swift; sourceTree = "<group>"; };
+		637658D81AE720FD00F274D0 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		637658DB1AE721C300F274D0 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SliderView.swift; path = Views/SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		637658B41AE7204300F274D0 /* SliderGame */ = {
 			isa = PBXGroup;
 			children = (
+				637658DA1AE7217300F274D0 /* Views */,
+				637658D71AE720B800F274D0 /* Model */,
 				637658B71AE7204300F274D0 /* AppDelegate.swift */,
 				637658B91AE7204300F274D0 /* ViewController.swift */,
 				637658BB1AE7204300F274D0 /* Main.storyboard */,
@@ -110,6 +116,22 @@
 				637658CC1AE7204400F274D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637658D71AE720B800F274D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				637658D81AE720FD00F274D0 /* AppModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		637658DA1AE7217300F274D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				637658DB1AE721C300F274D0 /* SliderView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				637658BA1AE7204300F274D0 /* ViewController.swift in Sources */,
+				637658DC1AE721C300F274D0 /* SliderView.swift in Sources */,
+				637658D91AE720FD00F274D0 /* AppModel.swift in Sources */,
 				637658B81AE7204300F274D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
